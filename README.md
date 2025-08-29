@@ -1,5 +1,4 @@
 # 🌱 EcoChain – Sustainable Supply Chain Analytics with Tableau Next
-
 **Tagline:** *AI-Driven Sustainability Insights for Ethical Supply Chains*
 
 ---
@@ -14,40 +13,29 @@ It predicts supply chain risks such as **carbon footprint violations** and **une
 - 🌍 **Real-Time Risk Prediction** – LSTM anomaly detection for CO₂ spikes, safety violations, and ESG risks.  
 - 📊 **Dynamic Tableau Next Dashboard** – Supplier rankings, sustainability KPIs, and predictive alerts.  
 - 🌱 **Einstein AI Slack Alerts** – Automatic notifications for high-risk suppliers.  
-- 🔄 **Interactive Simulations** – Run *what-if* scenarios with Gradio (e.g., “Switching Supplier X reduces emissions by 22%”).  
+- 🔄 **Interactive Simulations** – Run *what-if* scenarios with Gradio (e.g., *“Switching Supplier X reduces emissions by 22%”*).  
 - 📑 **ESG Mapping** – KPIs aligned with UN SDGs.  
 
 ---
 
 ## 🛠️ Technology Stack
 
-| Component          | Tools Used |
-|--------------------|------------|
-| **Data Processing** | Google Colab (Python), Pandas, TensorFlow |
-| **ML Model**        | Time-Series LSTM (Anomaly Detection) |
-| **Backend**         | Salesforce Data Cloud, Apex APIs |
-| **Analytics**       | Tableau Next (Embedded Einstein AI) |
-| **UI / Demo**       | Gradio, Slack Integration |
+| Component         | Tools Used |
+|-------------------|------------|
+| Data Processing   | Google Colab (Python), Pandas, TensorFlow |
+| ML Model          | Time-Series LSTM (Anomaly Detection) |
+| Backend           | Salesforce Data Cloud, Apex APIs |
+| Analytics         | Tableau Next (Embedded Einstein AI) |
+| UI / Demo         | Gradio, Slack Integration |
 
 ---
 
 ## 🔄 Workflow
-
-1. **Data Ingestion**  
-   - Pull supplier data (shipment logs, IoT emissions data, audit reports) from **Salesforce CRM** and **IoT APIs**.  
-
-2. **AI Analysis (Colab + LSTM)**  
-   - Train anomaly detection models to flag unusual events (CO₂ spikes, labor violations).  
-
-3. **Visualization (Tableau Next)**  
-   - Dashboard with risk scores, sustainability rankings, and alerts.  
-
-4. **Interactive Simulation (Gradio)**  
-   - Business users test scenarios:  
-     > *“How does switching Supplier X reduce our CO₂ emissions?”*  
-
-5. **Slack Alerts**  
-   - Auto-notifications for non-compliance or ESG risks.  
+1. **Data Ingestion** – Supplier + IoT data from Salesforce CRM and APIs  
+2. **AI Analysis** – LSTM anomaly detection (Colab + TensorFlow)  
+3. **Visualization** – Tableau Next dashboard (risk scores, ESG KPIs, predictive alerts)  
+4. **Interactive Simulation** – Gradio “what-if” scenarios for decision-making  
+5. **Slack Alerts** – Einstein AI auto-notifications for non-compliance  
 
 ---
 
@@ -72,23 +60,24 @@ Copy code
 ---
 
 ## 📊 Demo & Submission Assets
-- 🎥 **[Video Demo (5 min)]** – Tableau Next dashboard + Gradio simulation  
-- 💻 **GitHub Repo** – Code (Colab notebooks, Apex triggers, Gradio UI)  
-- 🔑 **Salesforce Sandbox Access** – Org ID + Admin credentials  
+- 📊 **[Tableau Dashboard](https://orgfarm-4bf95c9f68.lightning.force.com/tableau/dashboard/New_Dashboard/view)**  
+- 💻 **[EcoVision App (Gradio)](https://ecovision-sustainabl-jk0c.bolt.host/)**  
+- 🎥 **[Demo Video (YouTube)](https://youtu.be/hoTyArkfqns)**  
+- 📑 **[Pitch Deck (Gamma PPT)](https://gamma.app/docs/EcoChain-sqvldpdivzommha-PPT)**  
 
 ---
 
 ## 🔮 Future Roadmap
-- 🔗 **Blockchain Integration** – Immutable supplier audit trails with **Salesforce Blockchain**  
+- 🔗 **Blockchain Integration** – Immutable supplier audit trails with Salesforce Blockchain  
 - 🤝 **Supplier Portal** – Slack-based collaboration & corrective actions  
-- 🌏 **Carbon Credit Marketplace** – Integrate Salesforce Commerce for **offset purchases**  
+- 🌏 **Carbon Credit Marketplace** – Integrate Salesforce Commerce for offset purchases  
 
 ---
 
 ## 🏆 Why EcoChain?
-- **Real-World Impact:** ESG compliance market worth **$15.4B by 2025**.  
-- **Innovation:** Combines AI (LSTM in Colab) + Tableau Next + Slack workflows.  
-- **Sustainability First:** Drives ethical and green supply chain decisions.  
+- ✅ **Real-World Impact:** ESG compliance market worth **$15.4B by 2025**  
+- ✅ **Innovation:** AI (LSTM in Colab) + Tableau Next + Slack workflows  
+- ✅ **Sustainability First:** Drives ethical and green supply chain decisions  
 
 ---
 
