@@ -54,8 +54,7 @@ It predicts supply chain risks such as **carbon footprint violations** and **une
 │ └── factory_emissions.jpg
 └── README.md
 
-yaml
-Copy code
+
 
 ---
 
